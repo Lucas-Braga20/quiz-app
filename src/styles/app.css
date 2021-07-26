@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .w-726 {
+        width: 726px;
+    }
+    .w-200 {
+        width: 200px;
+    }
+    .w-600 {
+        width: 600px;
+    }
+    .h-36 {
+        height: 36px;
+    }
+    .h-40 {
+        height: 40px;
+    }
+    .h-600 {
+        height: 600px;
+    }
+    .h-fit-content {
+        height: fit-content;
+    }
+    .background-red {
+        background-color: #E94560;
+    }
+    .color-dark {
+        color: #1A1A2E !important;
+    }
+    .color-red {
+        color: #E94560 !important;
+    }
+    .color-dark-red {
+        color: #ca3b53 !important;
+    }
+    .color-white {
+        color: #F2F2F2;
+    }
+    .color-green {
+        color: #55c52c;
+    }
+    .hover\:text-red-700:hover {
+        color: #E94560;
+    }
+    .hover\:background-dark-red-700:hover {
+        background-color: #ca3b53;
+    }
+    .hover\:fill-dark-red-700:hover {
+        fill: #ca3b53;
+    }
+    .active\:text-red-700:active {
+        color: #E94560;
+    }
+    .disabled\:background-dark-red:disabled {
+        opacity: 0.5;
+        background-color: #ca3b53;
+    }
+}
