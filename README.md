@@ -1,4 +1,8 @@
-# quiz-app
+# Quiz App
+
+## GitHub Pages
+
+[link](https://lucas-braga20.github.io/quiz-app/)
 
 ## Project setup
 ```
